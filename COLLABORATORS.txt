@@ -1,1 +1,1 @@
-Basada en la guía homónima elaborada por Franco Leonardo Bulgarelli, pero tomando como lenguaje base a Wollok en vez de Java.
+Basada en la guía homónima elaborada por Franco Leonardo Bulgarelli, pero tomando como lenguaje base a Wollok en vez de Ruby.
