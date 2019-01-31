@@ -8,4 +8,10 @@ class UnaClaseCualquiera {
 }
 ```
 
-No los necesitaremos con frecuencia, ni tampoco es importante saber aún todos sus detalles, pero a veces nos podrán resultar muy útiles. Otros lenguajes también los tienen pero los llaman distinto. Por ejemplo en Gobstones <i class="da da-gobstones"></i> se les llama `Program`s.
+No los necesitaremos con frecuencia, ni tampoco es importante saber aún todos sus detalles, pero a veces nos podrán resultar muy útiles. Otros lenguajes también los tienen pero los llaman distinto. Por ejemplo en Wollok <i class="da da-wollok"></i> se hacen de esta manera:
+
+```wollok
+program unProgramaCualquiera {
+   //...completá acá...
+}
+```

@@ -8,15 +8,15 @@ language: text
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "... declarar los atributos"
+  value: '... declarar "el tipo" de los atributos y métodos'
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "... abrir y cerrar llaves en lugar de utilizar bloques terminados en end"
+  value: "... poner punto y coma al final de algunas líneas"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "... escribir los nombres de métodos en camelCase (deEstaForma)"
-  checked: true
+  value: "... escribir los nombres de clases en snake_case (de_esta_forma)"
+  checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "... escribir los nombres de clases en snake_case (de_esta_otra_forma)"
+  value: "... escribir todo en inglés"
   checked: false
 name: Una introducción con clase

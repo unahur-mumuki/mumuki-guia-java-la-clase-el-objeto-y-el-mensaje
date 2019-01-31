@@ -1,4 +1,4 @@
-En este ejercicio vas a necesitar la vieja y conocida alternativa condicional: un `if`. La sintaxis es muy simple y similar a la de JavaScript <i class="da da-javascript"></i> y Gobstones <i class="da da-gobstones"></i>: 
+En este ejercicio vas a necesitar la vieja y conocida alternativa condicional: un `if`. La sintaxis es muy simple y similar a la de Wollok <i class="da da-wollok"></i> y Gobstones <i class="da da-gobstones"></i>: 
 
 ```java
 if (...condicion...) {

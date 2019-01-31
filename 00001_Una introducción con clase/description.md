@@ -3,20 +3,33 @@ En Java _casi_ todo lo que escribimos se enmarca dentro de una clase, así que e
 ```java
 class Golondrina {
   int energia;
+  String nombre;
+  
   void volarEnCirculos() {
     energia -= 100;
+  }
+  
+  boolean puedeVolar() {
+    return energia > 0;
   }
 }
 ```
 
-¿Te acordás de la golondrina Pepita? Volvió, ¡en forma de clase Java! Comparémosla con su implementación en Ruby: 
+¿Te acordás de la golondrina Pepita? Volvió, ¡en forma de clase Java! Comparémosla con su implementación en Wollok: 
 
-```ruby
-class Golondrina
-  def volar_en_circulos!
+```wollok
+class Golondrina {
+  var energia
+  var nombre
+  
+  method volarEnCirculos() {
     energia -= 100
-  end
-end
+  }
+  
+  method puedeVolar() {
+    return energia > 0
+  }
+}
 ```
 
 > ¿Qué diferencias saltan a primera vista? 

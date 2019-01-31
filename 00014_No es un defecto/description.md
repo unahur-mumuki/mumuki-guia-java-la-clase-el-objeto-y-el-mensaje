@@ -11,7 +11,7 @@ class Golondrina
 
 ...¿cuál es el resultado de la expresión `new Golondrina().getEnergia()`? ¿`0`, `null` u otra cosa? En otras palabras, ¿cuál es el _valor por defecto_ del atributo `energia`?
 
-En Ruby la cosa era fácil: todo atributo por defecto vale `nil`. En Java, en cambio, tenemos más reglas: 
+En Wollok la cosa era fácil: todo atributo por defecto vale `null`. En Java, en cambio, tenemos más reglas: 
 
  * los atributos de tipo objeto por defecto valen `null`;
  * los atributos de tipo primitivo por defecto valen: 
