@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresMethod:comerAlpiste
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: DeclaresMethod:comerChocolate
+  binding: Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: DeclaresMethod:comerSesamo
+  binding: Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: comerSesamo
+  inspection: Uses:alimentarseCon
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: comerAlpiste
+  inspection: Uses:alimentarseCon
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  inspection: Uses:alimentarseCon
+  binding: comerChocolate
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresMethod:alimentarseCon

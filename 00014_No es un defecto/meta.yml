@@ -1,0 +1,34 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: a == 0
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: a == null
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: b == true
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: b == false
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: c == null
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: c == ""
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: d == ""
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: d == "hola"
+  checked: true
+name: No es un defecto

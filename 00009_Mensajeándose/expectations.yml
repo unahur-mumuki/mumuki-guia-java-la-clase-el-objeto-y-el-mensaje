@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresAttribute:ubicacion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresMethod:distanciaA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:DeclaresClass:Ciudad
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: distanciaA
+  inspection: Uses:distancia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: distanciaA
+  inspection: Uses:ubicacion

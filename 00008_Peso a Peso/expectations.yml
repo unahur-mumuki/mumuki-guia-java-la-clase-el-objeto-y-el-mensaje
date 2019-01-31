@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Supermercado
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Supermercado
+  inspection: DeclaresMethod:registrarVenta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Supermercado
+  inspection: DeclaresMethod:cantidadDeClientes
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Supermercado
+  inspection: DeclaresMethod:gastoPromedio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Supermercado
+  inspection: DeclaresMethod:reiniciar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Supermercado
+  inspection: DeclaresAttribute:*

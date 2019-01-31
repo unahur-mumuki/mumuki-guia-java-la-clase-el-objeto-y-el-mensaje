@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: main
+  inspection: Instantiates:Golondrina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: main
+  inspection: Uses:volarEnCirculos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: main
+  inspection: Uses:comerAlpiste

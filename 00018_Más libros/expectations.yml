@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Bibliotecario
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Bibliotecario
+  inspection: DeclaresMethod:revisar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Bibliotecario
+  inspection: DeclaresMethod:pasarMes
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Bibliotecario
+  inspection: Uses:reparar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Bibliotecario
+  inspection: Uses:esIncunable
